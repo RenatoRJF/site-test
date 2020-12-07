@@ -25,3 +25,12 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.langs button {
+  margin-right: 20px;
+}
+
+.langs button.active {
+  background-color: #000;
+  color: #fff;
+}

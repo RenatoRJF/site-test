@@ -26,6 +26,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+
+      <div>
+        {children}
+      </div>
     </>
   )
 }
